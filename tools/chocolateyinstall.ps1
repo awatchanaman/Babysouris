@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$unzipLocation = "$env:PROGRAMFILES\$packagename"
+$unzipLocation = "$env:PROGRAMFILES\"
 
 $packageArgs = @{
   packageName   = 'babysouris'
@@ -13,12 +13,12 @@ Install-ChocolateyZipPackage @packageArgs
 
 
 # Mise en place du Raccourci dans Menu Demarrer
-#$filepath = Join-Path "$env:ProgramFiles\Apprenti-Geometre" 'Apprenti_Geometre.exe'
-#Install-ChocolateyShortcut -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Apprenti_Geometre.lnk" -TargetPath "$filepath"
+$filepath = Join-Path "$env:PROGRAMFILES\Babysouris" 'babysou.exe'
+Install-ChocolateyShortcut -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Baby_Souris.lnk" -TargetPath "$filepath"
 
 
 # Mise en place du Raccourci dans Menu Demarrer (si le params est renseigné --params /DesktopShortcut)
 
-#if ((Get-PackageParameters).DesktopShortcut) {
-#Install-ChocolateyShortcut -ShortcutFilePath "$env:Public\Desktop\Apprenti_Geometre.lnk" -TargetPath "$filepath"
-#}
+if ((Get-PackageParameters).DesktopShortcut) {
+Install-ChocolateyShortcut -ShortcutFilePath "$env:PUBLIC\Desktop\Baby_Souris.lnk" -TargetPath "$filepath"
+}
