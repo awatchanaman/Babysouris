@@ -4,14 +4,14 @@
   <metadata>
     <id>babysouris</id>
     <version>1.0</version>
-    <title>BabySouris</title>
-    <packageSourceUrl>https://adajls.pagesperso-orange.fr/zips/babysou.zip</packageSourceUrl>
+    <title>Babysouris</title>
+    <packageSourceUrl>https://github.com/awatchanaman/Babysouris/raw/main/tools/Babysouris.zip</packageSourceUrl>
     <owners>awatchanaman</owners>
     <authors>Anne Scolé</authors>
     <projectUrl>https://adajls.pagesperso-orange.fr/softedu.html</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/awatchanaman/Babysouris/main/tools/babysou_icone.PNG</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/awatchanaman/Apprenti-Geometre/tree/main/apprenti-geometre/tools</projectSourceUrl>
+    <projectSourceUrl>https://github.com/awatchanaman/Babysouris/tree/main/tools</projectSourceUrl>
     <tags>baby souris education</tags>
     <summary>Educational software to teach children how to use the mouse</summary>
     <description>Educational software to teach children how to use the mouse
