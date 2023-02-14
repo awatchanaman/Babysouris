@@ -3,25 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>babysouris</id>
-    <version>1.0.0.0</version>
+    <version>1.0</version>
     <title>BabySouris</title>
-    <packageSourceUrl>https://edu1d.ac-toulouse.fr/politique-educative-31/site-ressources31/files/install_geometre.zip</packageSourceUrl>
+    <packageSourceUrl>https://adajls.pagesperso-orange.fr/zips/babysou.zip</packageSourceUrl>
     <owners>awatchanaman</owners>
-    <authors>chercheurs du CREM</authors>
-    <projectUrl>https://edu1d.ac-toulouse.fr/politique-educative-31/site-ressources31/?p=875</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/awatchanaman/Apprenti-Geometre/main/apprenti-geometre/tools/logo-apprenti_geometre.PNG</iconUrl>
+    <authors>Anne Scol�</authors>
+    <projectUrl>https://adajls.pagesperso-orange.fr/softedu.html</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/awatchanaman/Babysouris/main/tools/babysou_icone.PNG</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/awatchanaman/Apprenti-Geometre/tree/main/apprenti-geometre/tools</projectSourceUrl>
-    <tags>apprenti-geometre transformation plan</tags>
-    <summary>Apprenti Geometre is an interactive software designed as an aid to teaching mathematics.</summary>
-    <description>It was produced following research carried out by a team of CREM researchers, at the request of the Ministry of the French Community of Belgium.
-
-It is a software that allows, among other things, to draw, cut, merge and move figures either intuitively or with the tools for transforming the plan.
-
-This makes it available for all kinds of geometric or other activities (magnitudes, fractions, measurements…).
-It is a field of experimentation that complements other more traditional ones, such as folding, cutting, manipulation of mirrors, instrument drawing, etc.
-
-To edit the preferences, you will need a password: “CREM”
+    <tags>baby souris education</tags>
+    <summary>Educational software to teach children how to use the mouse</summary>
+    <description>Educational software to teach children how to use the mouse
     </description>
   </metadata>
   <files>
